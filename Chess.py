@@ -1329,10 +1329,6 @@ while k<mateturn and draw50<51 and k<stalemateturn:
                 Restore(10)
                 b=datetime.now()
                 time=GetTime(b)-GetTime(a)
-                if time<3 and AIDifficulty2<2:
-                    
-                    AIDifficulty2+=1
-                    print AIDifficulty2
                 print round(time,3), 's\n'
                 start=move[0]
                 end=move[1]
